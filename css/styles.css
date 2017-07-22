@@ -1,0 +1,54 @@
+.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  background-color: rgba(8, 8, 8, 0.6);
+}
+
+.carousel-flex {
+  display: flex;
+  justify-content: center;
+  -ms-align-items: center;
+  align-items: center;
+  height: 450px;
+}
+
+.carousel-wood-img {
+  background-image: url("../img/wood-2.jpg");
+}
+
+.item.carousel-wood-img img {
+  height: 250px;
+  margin: 100px 0;
+}
+
+.carousel-img-two {
+  background-image: url("../img/restaurant-2.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.carousel-img-three {
+  background-image: url("../img/farm-2.jpg");
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carousel-caption {
+  margin-bottom: 45px;
+
+}
+button.btn-warning {
+    background-color: #F8512F;
+    border-color: #F8512F;
+}
+
+button.btn-warnng: hover {
+  background-color: #D34326;
+  border-color: #D34326;
+}
