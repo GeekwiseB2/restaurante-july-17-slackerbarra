@@ -60,21 +60,29 @@ button.btn-warnng: hover {
 /*Our Story*/
 .lobster-text {
     font-family: 'Lobster', cursive;
-    color: red;
+    color: #F8512F;
     font-size: 100px;
+    text-shadow: 1px 1px 4px rgba(51, 51, 51, .6);
 }
 .the-theme {
-    font-family: 'Playfair Display', serif;
-    color: blue;
-    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 0;
+    color: #333;
+    /*font-size: 50px;*/
 
 }
 .lorem {
     font-family: 'Plafair Display', serif;
-    font-size: 25px;
-
+    font-size: 15em;
+    position: absolute;
+    z-index: 0;
+    color: rgba(51, 51, 51, .4);
 }
 
+  #our-story{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
 /*Review*/
 .review {
     font-family: 'Lobster', cursive;
@@ -85,10 +93,5 @@ button.btn-warnng: hover {
     font-family: 'Playfair Display', serif;
     color: orange;
     font-size: 50px;
-
-}
-.lorem {
-    font-family: 'Plafair Display', serif;
-    font-size: 25px;
 
 }
