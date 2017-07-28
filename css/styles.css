@@ -60,29 +60,21 @@ button.btn-warnng: hover {
 /*Our Story*/
 .lobster-text {
     font-family: 'Lobster', cursive;
-    color: #F8512F;
+    color: red;
     font-size: 100px;
-    text-shadow: 1px 1px 4px rgba(51, 51, 51, .6);
 }
 .the-theme {
-    font-family: 'Lato', sans-serif;
-    margin-top: 0;
-    color: #333;
-    /*font-size: 50px;*/
+    font-family: 'Playfair Display', serif;
+    color: blue;
+    font-size: 50px;
 
 }
 .lorem {
     font-family: 'Plafair Display', serif;
-    font-size: 15em;
-    position: absolute;
-    z-index: 0;
-    color: rgba(51, 51, 51, .4);
+    font-size: 25px;
+
 }
 
-  #our-story{
-    margin-top: 5%;
-    margin-bottom: 5%;
-  }
 /*Review*/
 #review {
     background-image: url('../img/food_review.jpg');
@@ -106,7 +98,6 @@ button.btn-warnng: hover {
     color: #F8512F;
     text-shadow: 1px 1px 2px #333;
     font-size: 60px;
-
 }
 
 .fresno-bee p {
@@ -115,4 +106,32 @@ button.btn-warnng: hover {
     font-family: 'Lato', sans-serif;
     text shadow: 1px 1px 2px #333;
     font-weight: 300;
+}
+
+/*Menu Styles*/
+#menu{
+  background-image: url('../img/black_linen.png');
+  height:  600px;
+
+}
+
+#menu h1 {
+  font-family: 'Lobster', cursive;
+  color: #fff;
+  font-size: 5em;
+}
+.food {
+  background-color: #fff;
+  max-height: 425px;
+  overflow: auto;
+  padding: 8px 12px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, #menu a {
+  color: #F8512F;
+  text-transform: uppercase;
+}
+
+.nav-tabs.nav-justified>.active>a:hover {
+  background-color: rgba(225, 225, 225, 0.2);
+  border-color: transparent;
 }
